@@ -10,33 +10,31 @@ Continual improvements are being made to this repository. If you come across any
 
 ## 2D Lane Detection
 
-### Segmentation-based: *Traditional Semantic Segmentation.*
+### Segmentation-Based: *Traditional Semantic Segmentation.*
 
-(AAAI 2018) SCNN: Spatial as Deep: Spatial CNN for Traffic Scene Understanding. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/12301) [Code ](https://github.com/XingangPan/SCNN) ![Stars](https://img.shields.io/github/stars/XingangPan/SCNN)
+([Arxiv 1712](https://arxiv.org/abs/1712.06080)) **SCNN: Spatial as Deep: Spatial CNN for Traffic Scene Understanding.** [Xingang Pan](https://dblp.uni-trier.de/search/author?author=Xingang%20Pan) et al. [AAAI 2018](https://ojs.aaai.org/index.php/AAAI/article/view/12301). [Code ](https://github.com/XingangPan/SCNN) ![Stars](https://img.shields.io/github/stars/XingangPan/SCNN)
 
-(AAAI 2021) RESA: Recurrent Feature-Shift Aggregator for Lane Detection. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/16469) [Code](https://github.com/ZJULearning/resa) ![Stars](https://img.shields.io/github/stars/ZJULearning/resa)
+([Arxiv 2008](https://arxiv.org/abs/2008.13719)) **RESA: Recurrent Feature-Shift Aggregator for Lane Detection.** [Tu Zheng](https://dblp.uni-trier.de/pid/229/4199.html) et al. [AAAI 2021](https://ojs.aaai.org/index.php/AAAI/article/view/16469). [Code](https://github.com/ZJULearning/resa) ![Stars](https://img.shields.io/github/stars/ZJULearning/resa)
 
-| Year |  Pub  | Method                                 | Title                                                                                    | Links                                                                |
-| :--: | :---: | -------------------------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 2018 | AAAI | *Traditional Semantic Segmentation.* | SCNN: Spatial as Deep: Spatial CNN for Traffic Scene Understanding.                      | [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/12301)\|code] |
-| 2021 | AAAI | *Traditional Semantic Segmentation.* | RESA: Recurrent Feature-Shift Aggregator for Lane Detection.                             | [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16469)\|code] |
-| 2020 | ECCV | *Grid Semantic Segmentation.*        | UFLD: Ultra Fast Structure-Aware Deep Lane Detection.                                    | [[paper](https://doi.org/10.1007/978-3-030-58586-0_17)\|code]           |
-| 2021 | ICCV | *Grid Semantic Segmentation.*        | CondLaneNet: a Top-to-down Lane Detection Framework Based on Conditional Convolution.    | [[paper](https://doi.org/10.1109/ICCV48922.2021.00375)\|code]           |
-| 2022 | TPAMI | *Grid Semantic Segmentation.*        | UFLDv2: Ultra Fast Deep Lane Detection With Hybrid Anchor Driven Ordinal Classification. | [[paper](https://ieeexplore.ieee.org/document/9795098)\|code]           |
+### Segmentation-Based: *Grid Semantic Segmentation.*
 
-### Segmentation-based: *Grid Semantic Segmentation.*
+[[Arxiv 2004](https://arxiv.org/abs/2004.11757)] **UFLD: Ultra Fast Structure-Aware Deep Lane Detection.** [Zequn Qin](https://dblp.uni-trier.de/pid/204/2939.html) et al. [ECCV 2020](https://doi.org/10.1007/978-3-030-58586-0_17) [Code](https://github.com/cfzd/Ultra-Fast-Lane-Detection) ![Stars](https://img.shields.io/github/stars/cfzd/Ultra-Fast-Lane-Detection)
+[[Arxiv 2105](https://arxiv.org/abs/2105.05003)] **CondLaneNet: a Top-to-down Lane Detection Framework Based on Conditional Convolution.** [ICCV 2021](https://doi.org/10.1109/ICCV48922.2021.00375). [Code](https://github.com/aliyun/conditional-lane-detection) ![Stars](https://img.shields.io/github/stars/aliyun/conditional-lane-detection)
+[[Arxiv 2206](https://arxiv.org/abs/2206.07389)] UFLDv2: Ultra Fast Deep Lane Detection With Hybrid Anchor Driven Ordinal Classification. [TPAMI 2022](https://ieeexplore.ieee.org/document/9795098). [Code](https://github.com/cfzd/Ultra-Fast-Lane-Detection-v2) ![Stars](https://img.shields.io/github/stars/cfzd/Ultra-Fast-Lane-Detection-v2)
 
-|    Pub    | Title                                                                                    | Links                                                      |
-| :--------: | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| ECCV 2020 | UFLD: Ultra Fast Structure-Aware Deep Lane Detection.                                    | [[paper](https://doi.org/10.1007/978-3-030-58586-0_17)\|code] |
-| ICCV 2021 | CondLaneNet: a Top-to-down Lane Detection Framework Based on Conditional Convolution.    | [[paper](https://doi.org/10.1109/ICCV48922.2021.00375)\|code] |
-| TPAMI 2022 | UFLDv2: Ultra Fast Deep Lane Detection With Hybrid Anchor Driven Ordinal Classification. | [[paper](https://ieeexplore.ieee.org/document/9795098)\|code] |
+### Segmentation-Based: *Instance Segmentation.*
 
-(ECCV 2020) UFLD: Ultra Fast Structure-Aware Deep Lane Detection. [Paper](https://doi.org/10.1007/978-3-030-58586-0_17) [Code](https://github.com/cfzd/Ultra-Fast-Lane-Detection) ![Stars](https://img.shields.io/github/stars/cfzd/Ultra-Fast-Lane-Detection)
-(ICCV 2021) CondLaneNet: a Top-to-down Lane Detection Framework Based on Conditional Convolution. [Paper](https://doi.org/10.1109/ICCV48922.2021.00375) [Code](https://github.com/aliyun/conditional-lane-detection) ![Stars](https://img.shields.io/github/stars/aliyun/conditional-lane-detection)
-(TPAMI 2022) UFLDv2: Ultra Fast Deep Lane Detection With Hybrid Anchor Driven Ordinal Classification. [Paper](https://ieeexplore.ieee.org/document/9795098) [Code](https://github.com/cfzd/Ultra-Fast-Lane-Detection-v2) ![Stars](https://img.shields.io/github/stars/cfzd/Ultra-Fast-Lane-Detection-v2)
+### Detection-Based: *Keypoints Detection.*
+
+### Detection-Based: *Parametric Curve Detection.*
+
+### Detection-Based: *Proposal Detection.*
 
 ## 3D Lane Detection
+
+### Mono Deteciton?
+
+### Mutli-View Detection?
 
 ### Mapless Driving
 
@@ -46,6 +44,10 @@ Continual improvements are being made to this repository. If you come across any
 |  |  |  |  |
 
 ## Video Lane Detection
+
+### Segmentation-Based
+
+### Detection-Based
 
 ## Datasets
 
